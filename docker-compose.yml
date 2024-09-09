@@ -1,0 +1,82 @@
+version: '3.8'
+services:
+  sun-db:
+    image: oracle/database:19.3.0-ee
+    environment:
+      ORACLE_PWD: SUNPJ
+      ORACLE_CHARACTERSET: AL32UTF8
+    ports:
+      - "1521:1521"
+    volumes:
+      - db_data:/opt/oracle/oradata
+    healthcheck:
+      test: ["CMD-SHELL", "echo 'SELECT 1 FROM dual;' | sqlplus -S SUNPJ/SUNPJ@localhost:1521/orclpdb1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - sun-network
+
+  sun-api:
+    build:
+      context: ./sun-api
+      dockerfile: Dockerfile
+    environment:
+      SPRING_APPLICATION_NAME: SunApi
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: oracle.jdbc.driver.OracleDriver
+      SPRING_DATASOURCE_URL: jdbc:oracle:thin:@172.16.2.7:1521/orclpdb1
+      SPRING_DATASOURCE_USERNAME: SUNPJ
+      SPRING_DATASOURCE_PASSWORD: SUNPJ
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+      SPRING_JPA_SHOW_SQL: "true"
+      SPRING_JPA_PROPERTIES_DIALECT: org.hibernate.dialect.Oracle19cDialect
+      SPRING_DATA_REDIS_HOST: 172.16.2.7
+      SPRING_DATA_REDIS_PORT: 6379
+      SPRING_DATA_REDIS_PASSWORD: 1004
+      SERVER_PORT: 8787
+      SPRING_SERVLET_MULTIPART_MAX_FILE_SIZE: 20MB
+      SPRING_SERVLET_MULTIPART_MAX_REQUEST_SIZE: 15MB
+      SERVER_TOMCAT_MAX_HTTP_FORM_POST_SIZE: 52428800
+      SERVER_TOMCAT_MAX_SWALLOW_SIZE: 104857600
+    ports:
+      - "8787:8787"
+    restart: always
+    depends_on:
+      sun-db:
+        condition: service_healthy
+      sun-redis:
+        condition: service_healthy
+    networks:
+      - sun-network
+
+  sun-ui:
+    build:
+      context: ./sun-ui
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    networks:
+      - sun-network
+
+  sun-redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    environment:
+      REDIS_PASSWORD: 1004
+    command: ["redis-server", "--requirepass", "1004"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - sun-network
+
+volumes:
+  db_data:
+    driver: local
+
+networks:
+  sun-network:
+    driver: bridge
