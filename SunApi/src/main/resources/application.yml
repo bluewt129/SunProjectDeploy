@@ -1,0 +1,55 @@
+spring:
+  application:
+    name: SunApi
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+#    url: jdbc:oracle:thin:@localhost:1521:xe
+    url: jdbc:oracle:thin:@172.16.2.7:1521/orclpdb1
+    username: SUNPJ
+    password: SUNPJ
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+#      dialect: org.hibernate.dialect.Oracle12cDialect
+      dialect: org.hibernate.dialect.Oracle19cDialect
+      hibernate:
+        format_sql: true
+  web:
+    websocket:
+      enabled: true
+  data:
+    redis:
+#      host: localhost
+      host: 172.16.2.7
+      port: 6379
+      password: 1004
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 15MB
+  
+server:
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+    session:
+      timeout: 1h
+  port: 8787
+  tomcat:
+    max-http-form-post-size: 52428800 # 50MB
+    max-swallow-size: 104857600  # 100MB
+  
+mybatis:
+  type-aliases-package: com.brs.sun.vo
+  mapper-locations: sqls/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+    
+springdoc:
+  swagger-ui:
+    path: /api-docs

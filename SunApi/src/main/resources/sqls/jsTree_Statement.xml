@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.brs.sun.model.dao.JsTreeDao">
+	
+	<select id="selectDept" resultType="DepartmentVo">
+		SELECT *
+		FROM DEPARTMENT
+	</select>
+	
+	<select id="selectEmp" resultType="EmployeeVo">
+		SELECT EMP_CODE, EMP_NAME || '('||JOB_NAME||')' AS EMP_NAME , e.JOB_CODE, DEPT_CODE
+	FROM EMPLOYEE e JOIN JOB b
+	ON e.JOB_CODE = b.JOB_CODE
+	</select>
+	
+	<select id="selectApprovers" resultType="EmployeeVo">
+		SELECT *
+		FROM EMPLOYEE e JOIN DEPARTMENT d 
+		ON e.DEPT_CODE = d.DEPT_CODE 
+	    JOIN JOB j 
+	    ON e.JOB_CODE = j.JOB_CODE 
+	    WHERE EMP_CODE IN
+	    <foreach collection="list" item="empCode" open="(" separator="," close=")">
+	    	#{empCode}
+	    </foreach>
+	</select>
+</mapper>
