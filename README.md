@@ -219,19 +219,22 @@
 
 ## 5. 성능 개선
 ### 캘린더 데이터 송수신 속도 개선
-#### 1) 기존: 사용자가 페이지 진입 시 프론트 서버에서 컴포넌트 마운트 후 GoogleCalendar API 호출, 화면에 최종 출력 <span style="color:red;">2.46초</span> 소요.
+
+
+#### 1) 기존: 사용자가 페이지 진입 시 프론트 서버에서 컴포넌트 마운트 후 GoogleCalendar API 호출, 화면에 최종 출력 **2.46초** 소요.
 
 
 
 
-#### 2) 1차 개선: 서버에서 1년치 데이터를 미리 요청하여 <span style="color:red;">0.9초</span>로 단축.
+#### 2) 1차 개선: 서버에서 1년치 데이터를 미리 요청하여 **0.9초**로 단축.
 ![image](https://github.com/user-attachments/assets/6858bb65-a5ac-45b0-942d-b1841b172772)
 
 
 
 
-#### 3) 2차 개선: Redis 서버를 이용한 데이터 캐싱으로 <span style="color:red;">0.4초</span>로 성능 개선, 과도한 외부 API 호출 방지.
+#### 3) 2차 개선: Redis 서버를 이용한 데이터 캐싱으로 **0.4초**로 성능 개선, 과도한 외부 API 호출 방지.
 ![image](https://github.com/user-attachments/assets/2b811485-1168-4fc8-8a1e-a35129bbcba1)
+
 
 
 
