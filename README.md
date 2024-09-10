@@ -21,36 +21,77 @@
 ----------------------
 
 ### 사용 기술 환경
+<br>
+<br>
 
-Back-end : ![Java Badge](https://img.shields.io/badge/Java-17-brightgreen), Spring Boot 3.2.8
+### Back-end
+![Java Badge](https://img.shields.io/badge/Java-17-brightgreen)
+![Spring Boot Badge](https://img.shields.io/badge/Spring%20Boot-3.2.8-brightgreen)
 
-통신: web socket, Stomp
+### 통신
+![Web Socket](https://img.shields.io/badge/Web%20Socket-Enabled-blue)
+![Stomp](https://img.shields.io/badge/STOMP-Enabled-blue)
 
-데이터 처리: JPA, myBatis, gson, commons-fileupload
+### 데이터 처리
+![JPA](https://img.shields.io/badge/JPA-Enabled-yellow)
+![myBatis](https://img.shields.io/badge/myBatis-Enabled-blue)
+![Gson](https://img.shields.io/badge/Gson-Enabled-green)
+![Commons FileUpload](https://img.shields.io/badge/Commons%20FileUpload-Enabled-orange)
 
-로깅/유틸: Lombok, AOP <br><br>
+### 로깅/유틸
+![Lombok](https://img.shields.io/badge/Lombok-Enabled-green)
+![AOP](https://img.shields.io/badge/AOP-Enabled-red)
 
-Front-end: JavaScript, React, Axios Ajax, bootstrap <br><br>
- 
-DB : Oracle 19c
+<br>
+<br>
 
-DB 관리: Oracle Shell Script
 
-캐시 서버: Redis <br><br>
+### Front-end
+![JavaScript](https://img.shields.io/badge/JavaScript-Enabled-yellow)
+![React](https://img.shields.io/badge/React-Enabled-blue)
+![Axios Ajax](https://img.shields.io/badge/Axios%20Ajax-Enabled-lightblue)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-Enabled-purple)
 
-CI/CD:
+<br>
+<br>
 
-CI 도구: Git Action
 
-CD 도구: Docker
+### DB
+![Oracle 19c](https://img.shields.io/badge/Oracle%2019c-Enabled-red)
 
-배포 환경: Ubuntu 24.04 LTS (온프레미스)
+### DB 관리
+![Oracle Shell Script](https://img.shields.io/badge/Oracle%20Shell%20Script-Enabled-orange)
 
-네트워크: ngrok
+### 캐시 서버
+![Redis](https://img.shields.io/badge/Redis-Enabled-red)
+<br>
+<br>
 
-테스트 도구: Junit 5.10.3, SpringBootTest 3.2.8, Postman, Swagger
 
-형상 관리: GitHub <br><br>
+### CI/CD
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Enabled-blue)
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
+![Ubuntu 24.04 LTS](https://img.shields.io/badge/Ubuntu%2024.04%20LTS-Enabled-orange)
+
+<br><br>
+
+
+### 네트워크
+![ngrok](https://img.shields.io/badge/ngrok-Enabled-blue)
+
+<br>
+
+### 테스트 도구
+![JUnit 5.10.3](https://img.shields.io/badge/JUnit-5.10.3-red)
+![SpringBootTest](https://img.shields.io/badge/SpringBootTest-3.2.8-brightgreen)
+![Postman](https://img.shields.io/badge/Postman-Enabled-orange)
+![Swagger](https://img.shields.io/badge/Swagger-Enabled-green)
+<br>
+
+### 형상 관리
+![GitHub](https://img.shields.io/badge/GitHub-Enabled-black)
+<br><br>
+
 
 
 
