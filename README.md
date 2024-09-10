@@ -82,43 +82,7 @@
 ![Oracle Shell Script](https://img.shields.io/badge/Oracle%20Shell%20Script-Enabled-orange?style=for-the-badge)
 
 #### 캐시 서버
-![Redis](https://img.shields.io/badge/Redis-Enabled-red?style=for-the-badge)
-
-
-#### CI/CD
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Enabled-blue?style=for-the-badge&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-Enabled-blue?style=for-the-badge&logo=docker&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu%2024.04%20LTS-Enabled-orange?style=for-the-badge&logo=ubuntu&logoColor=white)
-
-#### 네트워크
-![ngrok](https://img.shields.io/badge/ngrok-Enabled-blue?style=for-the-badge)
-
-
-#### 테스트 도구
-![JUnit 5.10.3](https://img.shields.io/badge/JUnit-5.10.3-red?style=for-the-badge)
-![SpringBootTest](https://img.shields.io/badge/SpringBootTest-3.2.8-brightgreen?style=for-the-badge)
-![Postman](https://img.shields.io/badge/Postman-Enabled-orange?style=for-the-badge&logo=postman&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger-Enabled-green?style=for-the-badge&logo=swagger&logoColor=white)
-
-
-#### 형상 관리
-![GitHub](https://img.shields.io/badge/GitHub-Enabled-black?style=for-the-badge&logo=github&logoColor=white)
-
-
-
-
-----------------------
-
-
-# 3. ERD
-
-![image](https://github.com/user-attachments/assets/6d42da66-2e0a-4794-a86d-09cb2610b7a0)
-
-
-
-
-### 3.1 Oracle ShellScript
-[DummyData](https://github.com/bluewt129/SunProjectDeploy/raw/OracleData/sun_main_database.sql)
+![Redis](https://img.shields.io/badge/Redis-Enabled-red?style=f공](https://github.com/bluewt129/SunProjectDeploy/raw/OracleData/sun_main_database.sql)
 
 
 
