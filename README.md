@@ -15,6 +15,7 @@
 ### [1.프로젝트 아키텍쳐](#1-프로젝트-아키텍쳐)
 ### [2.개발 환경](#2-개발-환경)
 ### [3.ERD](#3-erd)
+   - [3.1Oracle ShellScript 다운로드](#31-Oracle ShellScript 다운로드)
 ### [4.주요 기능(담당한 기능 ☀️)](#4-주요-기능) 
    - [4.1로그인/로그아웃](#41-로그인/로그아웃)
    - [4.2마이페이지](#42-마이페이지)
@@ -113,6 +114,11 @@
 
 ![image](https://github.com/user-attachments/assets/6d42da66-2e0a-4794-a86d-09cb2610b7a0)
 
+
+
+
+### 3.1 Oracle ShellScript 다운로드
+[DummyData_Download]
 
 
 
