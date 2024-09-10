@@ -118,7 +118,8 @@
 
 
 ### 3.1 Oracle ShellScript 다운로드
-[DummyData_Download]
+[DummyData_Download](https://github.com/bluewt129/SunProjectDeploy/raw/OracleData/sun_main_database.sql)
+
 
 
 
