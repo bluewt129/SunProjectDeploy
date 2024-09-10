@@ -15,7 +15,7 @@
 ### [1.프로젝트 아키텍쳐](#1-프로젝트-아키텍쳐)
 ### [2.개발 환경](#2-개발-환경)
 ### [3.ERD](#3-erd)
-   - [3.1 Oracle ShellScript 다운로드](#31-oracle-shellscript-다운로드)
+   - [3.1 Oracle ShellScript](#31-oracle-shellscript)
 ### [4.주요 기능(담당한 기능 ☀️)](#4-주요-기능) 
    - [4.1로그인/로그아웃](#41-로그인/로그아웃)
    - [4.2마이페이지](#42-마이페이지)
@@ -117,8 +117,8 @@
 
 
 
-### 3.1 Oracle ShellScript 다운로드
-[DummyData_Download](https://github.com/bluewt129/SunProjectDeploy/raw/OracleData/sun_main_database.sql)
+### 3.1 Oracle ShellScript
+[DummyData](https://github.com/bluewt129/SunProjectDeploy/raw/OracleData/sun_main_database.sql)
 
 
 
