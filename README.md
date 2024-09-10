@@ -22,7 +22,7 @@
 
 ### 사용 기술 환경
 
-Back-end : [Java 17](https://img.shields.io/badge/Java-17-brightgreen), Spring Boot 3.2.8
+Back-end : ![Java Badge](https://img.shields.io/badge/Java-17-brightgreen), Spring Boot 3.2.8
 
 통신: web socket, Stomp
 
