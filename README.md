@@ -1,4 +1,4 @@
-# SunProjectManager
+# (U+2600) SunProjectManager (U+2600)
 
 
 ### 주제 : 회사 인트라넷 구축을 위한 그룹웨어 구현
