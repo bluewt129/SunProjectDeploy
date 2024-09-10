@@ -19,79 +19,77 @@
 
 
 ----------------------
+### 2. 개발 환경
+<br><br>
+![스크린샷 2024-09-08 203358](https://github.com/user-attachments/assets/55a519a7-49d3-45c3-b325-c24f2496a492)
+<br><br>
 
-### 사용 기술 환경
+----------------------
+
+
+
+
+### 2. 개발 환경
 <br>
 <br>
 
 ### Back-end
-![Java Badge](https://img.shields.io/badge/Java-17-brightgreen)
-![Spring Boot Badge](https://img.shields.io/badge/Spring%20Boot-3.2.8-brightgreen)
+![Java](https://img.shields.io/badge/Java-17-brightgreen?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.8-brightgreen?style=for-the-badge&logo=springboot&logoColor=white)
 
 ### 통신
-![Web Socket](https://img.shields.io/badge/Web%20Socket-Enabled-blue)
-![Stomp](https://img.shields.io/badge/STOMP-Enabled-blue)
+![Web Socket](https://img.shields.io/badge/Web%20Socket-Enabled-blue?style=for-the-badge)
+![STOMP](https://img.shields.io/badge/STOMP-Enabled-blue?style=for-the-badge)
 
 ### 데이터 처리
-![JPA](https://img.shields.io/badge/JPA-Enabled-yellow)
-![myBatis](https://img.shields.io/badge/myBatis-Enabled-blue)
-![Gson](https://img.shields.io/badge/Gson-Enabled-green)
-![Commons FileUpload](https://img.shields.io/badge/Commons%20FileUpload-Enabled-orange)
+![JPA](https://img.shields.io/badge/JPA-Enabled-yellow?style=for-the-badge)
+![myBatis](https://img.shields.io/badge/myBatis-Enabled-blue?style=for-the-badge)
+![Gson](https://img.shields.io/badge/Gson-Enabled-green?style=for-the-badge)
+![Commons FileUpload](https://img.shields.io/badge/Commons%20FileUpload-Enabled-orange?style=for-the-badge)
 
 ### 로깅/유틸
-![Lombok](https://img.shields.io/badge/Lombok-Enabled-green)
-![AOP](https://img.shields.io/badge/AOP-Enabled-red)
+![Lombok](https://img.shields.io/badge/Lombok-Enabled-green?style=for-the-badge)
+![AOP](https://img.shields.io/badge/AOP-Enabled-red?style=for-the-badge)
 
-<br>
-<br>
-
+<br><br>
 
 ### Front-end
-![JavaScript](https://img.shields.io/badge/JavaScript-Enabled-yellow)
-![React](https://img.shields.io/badge/React-Enabled-blue)
-![Axios Ajax](https://img.shields.io/badge/Axios%20Ajax-Enabled-lightblue)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-Enabled-purple)
+![JavaScript](https://img.shields.io/badge/JavaScript-Enabled-yellow?style=for-the-badge)
+![React](https://img.shields.io/badge/React-Enabled-blue?style=for-the-badge&logo=react)
+![Axios Ajax](https://img.shields.io/badge/Axios%20Ajax-Enabled-lightblue?style=for-the-badge)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-Enabled-purple?style=for-the-badge)
 
-<br>
-<br>
-
+<br><br>
 
 ### DB
-![Oracle 19c](https://img.shields.io/badge/Oracle%2019c-Enabled-red)
+![Oracle 19c](https://img.shields.io/badge/Oracle%2019c-Enabled-red?style=for-the-badge)
 
 ### DB 관리
-![Oracle Shell Script](https://img.shields.io/badge/Oracle%20Shell%20Script-Enabled-orange)
+![Oracle Shell Script](https://img.shields.io/badge/Oracle%20Shell%20Script-Enabled-orange?style=for-the-badge)
 
 ### 캐시 서버
-![Redis](https://img.shields.io/badge/Redis-Enabled-red)
-<br>
-<br>
+![Redis](https://img.shields.io/badge/Redis-Enabled-red?style=for-the-badge)
 
+<br><br>
 
 ### CI/CD
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Enabled-blue)
-![Docker](https://img.shields.io/badge/Docker-Enabled-blue)
-![Ubuntu 24.04 LTS](https://img.shields.io/badge/Ubuntu%2024.04%20LTS-Enabled-orange)
-
-<br><br>
-
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-Enabled-blue?style=for-the-badge&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue?style=for-the-badge&logo=docker&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu%2024.04%20LTS-Enabled-orange?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ### 네트워크
-![ngrok](https://img.shields.io/badge/ngrok-Enabled-blue)
+![ngrok](https://img.shields.io/badge/ngrok-Enabled-blue?style=for-the-badge)
 
-<br>
-
-### 테스트 도구
-![JUnit 5.10.3](https://img.shields.io/badge/JUnit-5.10.3-red)
-![SpringBootTest](https://img.shields.io/badge/SpringBootTest-3.2.8-brightgreen)
-![Postman](https://img.shields.io/badge/Postman-Enabled-orange)
-![Swagger](https://img.shields.io/badge/Swagger-Enabled-green)
-<br>
-
-### 형상 관리
-![GitHub](https://img.shields.io/badge/GitHub-Enabled-black)
 <br><br>
 
+### 테스트 도구
+![JUnit 5.10.3](https://img.shields.io/badge/JUnit-5.10.3-red?style=for-the-badge)
+![SpringBootTest](https://img.shields.io/badge/SpringBootTest-3.2.8-brightgreen?style=for-the-badge)
+![Postman](https://img.shields.io/badge/Postman-Enabled-orange?style=for-the-badge&logo=postman&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-Enabled-green?style=for-the-badge&logo=swagger&logoColor=white)
+
+### 형상 관리
+![GitHub](https://img.shields.io/badge/GitHub-Enabled-black?style=for-the-badge&logo=github&logoColor=white)
 
 
 
