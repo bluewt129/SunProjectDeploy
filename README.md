@@ -158,7 +158,7 @@
 ##### ☀️ 담당기능
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Ep12CUHRm8o?si=ahKP_-Qp76CDC0gT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![차량관리 영상](https://img.youtube.com/vi/Ep12CUHRm8o/0.jpg)](https://www.youtube.com/watch?v=Ep12CUHRm8o)
 
 
 차량관리 페이지입니다. 전체 목록을 등록번호 역순으로 출력하고 있습니다. 필터를 통해 원하는 조건으로 조회 가능합니다.
