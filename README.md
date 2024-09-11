@@ -134,11 +134,6 @@
 ### 생략된 기능들에 대한 자세한 설명은 해당 기능 담당자 Git으로 이동하면 확인할 수 있습니다
 
 
-[RUBI GIT 보러가기](https://github.com/Ahyoung0615/SunProjectManager)  
-[SONIC GIT 보러가기](https://github.com/Leesehyun49/SunProjectManager)  
-[BLUE GIT 보러가기](https://github.com/bluewt129/SunProjectDeploy)
-
-
 ### 4.1 로그인 로그아웃
 #### [SONIC GIT 보러가기](https://github.com/Leesehyun49/SunProjectManager)
 
