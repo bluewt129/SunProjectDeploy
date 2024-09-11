@@ -160,7 +160,7 @@
 
 
 ### 4.8 차량관리
-##### ☀️ 담당기능
+##### ☀️ 담당기능 (이미지 클릭 시 동영상 링크로 이동됩니다)
 
 
 [![차량관리 영상](https://img.youtube.com/vi/Ep12CUHRm8o/0.jpg)](https://www.youtube.com/watch?v=Ep12CUHRm8o)
@@ -194,7 +194,7 @@
 
 
 ### 4.9 협력사관리
-##### ☀️ 담당기능
+##### ☀️ 담당기능 (이미지 클릭 시 동영상 링크로 이동됩니다)
 
 
 [![협력사관리 영상](https://img.youtube.com/vi/pufNOS2PLYs/0.jpg)](https://www.youtube.com/watch?v=pufNOS2PLYs)
@@ -213,7 +213,7 @@
 
 
 ### 4.10 출장 배차관리
-##### ☀️ 담당기능
+##### ☀️ 담당기능 (이미지 클릭 시 동영상 링크로 이동됩니다)
 
 
 [![출장배차관리 영상](https://img.youtube.com/vi/pFGumqUsvvg/0.jpg)](https://www.youtube.com/watch?v=pFGumqUsvvg)
@@ -268,7 +268,7 @@
 
 
 ### 4.11 공휴일 관리
-##### ☀️ 담당기능
+##### ☀️ 담당기능 (이미지 클릭 시 동영상 링크로 이동됩니다)
 
 
 [![공휴일관리 영상](https://img.youtube.com/vi/arIXZ-7rXMs/0.jpg)](https://www.youtube.com/watch?v=arIXZ-7rXMs)
@@ -287,7 +287,7 @@
 
 
 ### 4.12 회의록 관리
-##### ☀️ 담당기능
+##### ☀️ 담당기능 (이미지 클릭 시 동영상 링크로 이동됩니다)
 
 
 [![회의록 관리 영상](https://img.youtube.com/vi/3RjkeUpOmEg/0.jpg)](https://www.youtube.com/watch?v=3RjkeUpOmEg)
@@ -312,7 +312,7 @@ CLOVA 정책에 따라 최대 2000자 까지 요약 가능하며 AI 요약하기
 
 
 ### 4.13 화면제어
-##### ☀️ 담당기능
+##### ☀️ 담당기능 (이미지 클릭 시 동영상 링크로 이동됩니다)
 
 
 [![화면제어 영상](https://img.youtube.com/vi/D3NFn0hbpLk/0.jpg)](https://www.youtube.com/watch?v=D3NFn0hbpLk)
