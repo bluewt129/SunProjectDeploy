@@ -41,6 +41,16 @@
 ![스크린샷 2024-09-08 203358](https://github.com/user-attachments/assets/55a519a7-49d3-45c3-b325-c24f2496a492)
 <br><br>
 
+# 개발 구조
+![스크린샷 2024-09-11 102406](https://github.com/user-attachments/assets/2de7f105-ccf9-4aa3-8e4f-345f9615660f)
+<br><br>
+
+# 사용 API
+![스크린샷 2024-09-11 102353](https://github.com/user-attachments/assets/51f839ac-882f-481c-bd1e-92f634be063a)
+
+
+
+
 ----------------------
 
 
